@@ -36,26 +36,33 @@ Supported arguments:
 
 **Laravel**, **Yii2**,  Linux, Nginx, Mysql, Php(LNMP), Redis, Python, Go, jquery, css+div
 
-## Experience
+## 工作经历
 
-### **Microsoft Research** `2020.5 -`
+### **上海基分文化（趣头条）** `2020.04 - 2020.08`
 
-_Research Intern_<br>
+_PHP工程师_<br>
 
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
+> 主要负责公司的信息化建设：OA系统、招聘系统、绩效系统等。
 
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
+主要工作内容：
+##### OA系统
+1. 借助**流程引擎activii**，实现流程审批，如费用报销、对公支付等；
+2. 打通金蝶系统，使费用报销部分能在金蝶系统实时生成凭证，降低金蝶维护成本。
 
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
+##### 招聘系统
+1. 实现了多简历版本的升级转换，使面试安排更加丰富多样(一个人可以有多份简历，参与多份职位的面试安排)；
+2. 使用`redis`队列、`supervisord`等服务，优化流程处理逻辑，使主流程执行快速高效，同时又能**异步实时**处理相关事务(如企业微信消息通知、邮箱推送、日志记录等)。
+3. 引入`libreoffice`等服务，实现简历格式转换，提升使用体验(如`doc`转`pdf`)。
 
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
 
-### **AsiaInfo** `2015.6 - 2015.8`
+##### 绩效系统
+1. 实现并完善Peers评价部分，提升系统可用性。
 
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
+##### 其他内容，
+1. 接入**配置中心**，实现敏感信息集中管理；
+2. **维护`centos`服务器**，搭建`supervisord`, `libreoffice`等服务，为项目引入提升性能的服务；
+3. 初步实现`Docker`容器化(目前仅测试环境)，实现资源优化，节约服务器成本；
+
 
 ## Mentoring
 
